@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+body {
+    background-color: #ffe6f2;
+    background-size: cover;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background: rgba(255, 105, 180, 0.85);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(255, 105, 180, 0.5);
+    max-width: 500px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+.valentine-img {
+    width: 100%;
+    max-width: 280px;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.idk {
+    width: 100%;
+    max-width: 280px;  /* Adjust as needed */
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+a {
+    font-size: 1.2em;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s;
+    width: 96%;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.yes {
+    background: #ff66b2;
+    color: white;
+}
+
+.ofc-yes {
+    background: #ff4081;
+    color: white;
+}
+
+.yes:hover, .ofc-yes:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive for Realme Phones */
+@media (max-width: 450px) {
+    .container {
+        padding: 15px;
+        max-width: 90%;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+    .valentine-img {
+        max-width: 250px;
+    }
+
+    a {
+        font-size: 1.1em;
+        padding: 10px;
+    }
+}
